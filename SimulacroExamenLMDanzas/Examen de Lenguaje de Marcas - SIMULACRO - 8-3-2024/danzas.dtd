@@ -1,0 +1,9 @@
+<!ELEMENT danzas (danza+)>
+<!ELEMENT danza (nombre,regionDeOrigen,descripcion,numPersonas,tipoDeMusica,particularidades)>
+<!ATTLIST danza id CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT regionDeOrigen (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT numPersonas (#PCDATA)>
+<!ELEMENT tipoDeMusica (#PCDATA)>
+<!ELEMENT particularidades (#PCDATA)>
